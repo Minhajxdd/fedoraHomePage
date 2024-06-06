@@ -10,7 +10,8 @@
     --primary-blue:#3F76BA;
     --secondary-blue:#294172;
     --white:#FFFFFF;
-
+    --blue-two:#3C6EB4;
+    --black:#111827;
 }
 
 body{
@@ -79,4 +80,119 @@ nav .container .two ul svg{
     fill: var(--white);
     width: 14px;
     margin-right: 25px;
+}
+
+
+
+/* Section one */
+
+.sec-1{
+    background-image: linear-gradient(#3E72B7,#4E9BD5);
+    width: 100%;
+    height: auto;
+}
+
+.sec-1 .one{
+    width: 100%;
+    display: flex;
+}
+
+.sec-1 .one .content{
+    background-color: var(--blue-two);
+    padding: 10px;
+    margin-top: 55px;
+    margin-left: auto;
+    border-radius: 5px;
+    display: flex;
+    justify-content:flex-start;
+    width: 370px;
+    font-family:fantasy;
+}
+
+.sec-1 .one .content p{
+    padding: 10px;
+    margin-right: 10%;
+}
+
+.sec-1 .one .content p a{
+    color: var(--white);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sec-1 .two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-family: Montserrat,ui-sans-serif,system-ui,sans-serif;
+}
+
+.sec-1 .two .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 840px;
+}
+
+.sec-1 .two .content h1{
+    font-size: 59px;
+    line-height: 2;
+}
+
+.sec-1 .two .content h3{
+    font-size: 28px;
+    padding:0 60px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.sec-1 .two .content p{
+    font-size: 18px;
+    line-height: 4;
+}
+
+.sec-1 .two .content .circle{
+    background-color: #60A5FA;
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-1 .two .content .circle a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.sec-1 .two .content .circle a h2{
+    text-align: center;
+    font-size: 55px;
+}
+
+.sec-1 .three{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    padding: 0px 55px;
+    align-items: center; 
+}
+
+.sec-1 .three a{
+    text-decoration: none;
+   }
+
+.sec-1 .three a h3{
+    color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+}
+
+.sec-1 .four svg{
+    fill: var(--black);
 }

@@ -91,6 +91,87 @@ nav .container .two ul svg{
     margin-right: 25px;
 }
 
+.menuicon{
+   width: 50px;
+   height: 40px; 
+   position: fixed;
+   top: 6px;
+   right: 10px;
+   display: none;
+}
+
+/* 800 drop  */
+
+.dropNav{
+    position: fixed;
+    background-color: #171717;
+    top: 55px;
+    right: 0;
+    left: 0;
+    height: 93%;
+    z-index: 80;
+    display: none;
+}
+
+
+.dropNav .top{
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, #2B467A,#3C6EB3);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.dropNav .top .one{
+    background-color: #1F3156;
+
+}
+
+.dropNav .top div{
+      padding: 5px;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropNav .top div svg{
+    width: 23px;
+    fill: var(--white);
+}
+
+.dropNav .top div p{
+    color: var(--white);
+}
+
+/*   Section one nav bar */
+
+@media(max-width:800px){
+  
+nav .container .two{
+    display: none;
+}    
+
+
+.menuicon{
+    display: block;
+}
+
+.dropNav{
+    position: fixed;
+    background-color: #171717;
+    top: 55px;
+    right: 0;
+    left: 0;
+    height: 93%;
+    z-index: 80;
+}
+
+}
+
+
 
 
 /* Section one */
@@ -211,6 +292,69 @@ nav .container .two ul svg{
     fill: var(--black);
 }
 
+/* Section two media query */
+@media(max-width:870px){
+    .sec-1 .one .content{
+        width: 300px;
+    }
+
+    .sec-1 .one .content p a{
+        font-size: 15px;
+    }
+
+    .sec-1 .two .content h1{
+        font-size: 42px;
+    }
+
+    .sec-1 .two .content h3{
+        font-size: 16px;
+        width: 418px;
+    }
+
+    .sec-1 .two .content p{
+        font-size: 16px;
+    }
+
+
+}
+
+@media(max-width:650px){
+    .sec-1 .one .content{
+        margin-top: 30px;
+    }
+
+    .sec-1 .two .content h1{
+        font-size: 30px;
+    }
+
+    .sec-1 .two .content p{
+        font-size: 14px;
+    }
+
+    .sec-1 .two .content .circle{
+        height: 120px;
+        width: 120px;
+    }
+
+    .sec-1 .two .content .circle a span{
+        font-size: 11px;
+    }
+
+    .sec-1 .two .content .circle a h2{
+        font-size: 35px;
+    }
+
+    .sec-1 .three a{
+        display: none;
+    }
+
+}
+
+@media(max-width:445px){
+    .sec-1 .two .content h1{
+        font-size: 25px;
+    }
+}
 
 /* Section two */
 .sec-2{
@@ -358,12 +502,14 @@ nav .container .two ul svg{
     border-radius: 5px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
 }
 
 .sec-3 .content div{
     height: auto;
     padding: 30px 20px 40px 20px;
-    width: 25%;
+    width: 364px;
     line-height: 1.5;
 }
 

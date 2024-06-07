@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 :root {
     --primary-blue:#3F76BA;
     --secondary-blue:#294172;
@@ -706,10 +710,14 @@ footer .main{
     display: flex;
     justify-content: space-evenly;
     padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 footer .main div{
     line-height: 1.6;
+    width: 202px;
 }
 
 footer .main div h3{
@@ -785,4 +793,67 @@ footer .third .center p{
 
 footer .third .center a{
     color: #7D8187;
+}
+
+/* Footer media query */
+
+@media(max-width:950px){
+    footer .second img{
+        width: 100px;
+    }
+
+    footer .third img{
+        width: 100px;
+        height: 30px;
+    }
+
+    footer .second .center div a{
+        font-size: 15px;
+    }
+
+    footer .second .center div p{
+        font-size: 15px;
+    }
+
+    footer .third .center *{
+        font-size: 15px;
+    }
+
+    footer div img{
+        margin-left: 1%;
+    }
+
+}
+
+@media(max-width:665px){
+    footer .second{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .third{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer .second .center{
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media(max-width:490px){
+    footer .second .center div a{
+        font-size: 10px;
+    }
+
+    footer .second .center div p{
+        font-size: 10px;
+    }
+
+    footer .third .center *{
+        font-size: 10px;
+    }
+
+    
 }

@@ -473,6 +473,48 @@ nav .container .two{
     padding-top: 10px;
 }
 
+/* Section two media query */
+@media(max-width:1010px){
+
+    .sec-2 .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec-2 .container .card{
+        width: 100%;
+        margin-top: 0;   
+    }
+
+    .sec-2 .container .card1{
+        margin-top: 50px;
+    }
+}
+
+@media(max-width:750px){
+
+    .sec-2 .container{
+        margin: 0 10px;
+    }
+
+    .sec-2 .container .card a h2{
+        font-size: 22px;
+    }
+
+    .sec-2 .container .card a br{
+        display: none;
+    }
+
+    .sec-2 .container .card .bottom a .btn{
+        padding: 5px 10px;
+    }
+}
+
+@media(max-width:500px){
+.sec-2 .container .card a p{
+        font-size: 16px;
+    }
+}
 
 /* Section Three */
 

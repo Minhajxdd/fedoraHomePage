@@ -12,6 +12,7 @@
     --white:#FFFFFF;
     --blue-two:#3C6EB4;
     --black:#111827;
+    --text-blue:#51A2DA;
 }
 
 body{
@@ -328,16 +329,62 @@ nav .container .two ul svg{
     padding-top: 10px;
 }
 
-.sec-2 .container-bottom{
+
+/* Section Three */
+
+.sec-3{
     height: auto;
     width: 100%;
-    margin-top: 100px;
+    background-color: var(--black);
+}
+
+.sec-3 .head{
+    height: auto;
+    width: 100%;
+    padding-top: 100px;
     padding-bottom: 40px;
 }
 
-.sec-2 .container-bottom h2{
-    color: #51A2DA;
+.sec-3 .head h2{
+    color: var(--text-blue);
     font-size: 42px;
     text-align: center;
     font-weight:500;
+}
+
+.sec-3 .content{
+    background-image: linear-gradient(to right, #3B4D46,#213B56);
+    height: auto;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sec-3 .content div{
+    height: auto;
+    padding: 30px 20px 40px 20px;
+    width: 25%;
+    line-height: 1.5;
+}
+
+.sec-3 .content div h2{
+    font-size: 33px;
+    color: var(--text-blue);
+    width: 100%;
+}
+
+.sec-3 .content div p{
+    color: var(--white);
+    font-size: 18px;
+}
+
+.sec-3 .content div a{
+    color: var(--white);
+    text-decoration: none;
+    transition: 100ms;
+    font-size: 20px;
+}
+
+.sec-3 .content div a:hover{
+    text-decoration: underline;
 }

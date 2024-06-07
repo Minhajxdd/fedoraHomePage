@@ -388,3 +388,70 @@ nav .container .two ul svg{
 .sec-3 .content div a:hover{
     text-decoration: underline;
 }
+
+/* Secton four */
+
+.sec-4{
+    background-color: var(--black);
+    width: 100%;
+    height: auto;
+    padding: 100px 0 60px 0;
+}
+
+
+.sec-4 .head h2{
+    color: var(--text-blue);
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.sec-4 .content{
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin: 0 30px;
+
+}
+
+.sec-4 .content div{
+    line-height: 1.5;
+    width: 380px;
+    height: 200px;
+    background-color: #1F2937;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.sec-4 .content div h2{
+    color: var(--text-blue);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 37px;
+}
+
+.sec-4 .content div p{
+    color: var(--white);
+    font-size: 19px;
+    text-align: center;
+}
+
+.sec-4 .content div a{
+    color: var(--white);
+    font-size: 20px;
+    text-decoration: none;
+    transition: 300ms;
+    font-weight: bolder;
+}
+
+.sec-4 .content div a:hover{
+    text-decoration: underline;
+    color: var(--text-blue);
+}

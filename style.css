@@ -577,6 +577,34 @@ nav .container .two{
     text-decoration: underline;
 }
 
+/* Section three media query */
+
+@media(max-width:740px){
+    .sec-3 .content div{
+        padding: 20px 20px;
+    }
+}
+
+@media(max-width:540px){
+    .sec-3 .head h2{
+        font-size: 32px;
+        margin: 0 5px;
+    }
+
+    .sec-3 .content div h2{
+        font-size: 25px;
+    }
+
+    .sec-3 .content div p{
+        font-size: 16px;
+    }
+
+    .sec-3 .content div a{
+        font-size: 16px;
+    }
+
+}
+
 /* Secton four */
 
 .sec-4{

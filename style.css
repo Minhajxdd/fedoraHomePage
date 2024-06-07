@@ -672,6 +672,30 @@ nav .container .two{
     color: var(--text-blue);
 }
 
+/* Section four media query */
+
+@media(max-width:450px){
+    .sec-4 .head h2{
+        font-size: 30px;
+    }
+
+    .sec-4 .content div{
+        width: 100%;
+        padding: 8%;
+    }
+
+    .sec-4 .content div h2{
+        font-size: 30px;
+    }
+
+    .sec-4 .content div p{
+        font-size: 16px;
+    }
+
+    .sec-4 .content div a{
+        font-size: 16px;
+    }
+}
 
 /* Footer */
 

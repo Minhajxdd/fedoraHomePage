@@ -455,3 +455,94 @@ nav .container .two ul svg{
     text-decoration: underline;
     color: var(--text-blue);
 }
+
+
+/* Footer */
+
+footer .main{
+    background-color: #171717;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+footer .main div{
+    line-height: 1.6;
+}
+
+footer .main div h3{
+    color: var(--white);
+    font-size: 26px;
+}
+
+footer .main div a{
+    color: var(--white);
+    text-decoration: none;
+    font-size: 19px;
+    display: flex;
+}
+
+
+footer .second{
+    background-color: #171717;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer div img{
+    width: 170px;
+    margin-left: 8%;
+}
+
+footer .second .center{
+    width: 500px;
+    line-height: 1.5;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+footer .second .center div a{
+    color: #aaabad;
+    font-size: 19px;
+    transition: 300ms;
+    margin-right: 10px;
+}
+
+footer .second .center div a:hover{
+    color: #6E757E;
+}
+
+footer .second .center div p{
+    color: #3B3E43;
+    font-size: 19px;
+}
+
+footer .third{
+    background-color: #000000;
+    padding: 30px;
+    display: flex;
+}
+
+footer .third .center{
+    display: flex;
+    flex-direction: column;
+    margin-left: 12%;
+}
+
+footer .third .center *{
+    font-size: 19px;
+}
+
+footer .third .center p{
+    color: #F9F9F9;
+}
+
+footer .third .center a{
+    color: #7D8187;
+}

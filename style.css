@@ -20,6 +20,14 @@ body{
 
 
 /* NavBar */
+
+nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+}
+
 nav .container{
     height: 55px;
     background-image: linear-gradient(to right, #2B467A,#3C6EB3);
@@ -90,6 +98,7 @@ nav .container .two ul svg{
     background-image: linear-gradient(#3E72B7,#4E9BD5);
     width: 100%;
     height: auto;
+    padding-top: 60px;
 }
 
 .sec-1 .one{
@@ -193,6 +202,142 @@ nav .container .two ul svg{
 
 }
 
+.sec-1 .four{
+    color: var(--black);
+}
+
 .sec-1 .four svg{
     fill: var(--black);
+}
+
+
+/* Section two */
+.sec-2{
+    background-color: var(--black);
+    height: auto;
+    margin-top: -10px;
+}
+
+.sec-2 .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+    margin: 0 80px;
+}
+
+
+.sec-2 .container .card{
+    background-color: #1F2937;
+    width: 390px;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 15px;
+    position: relative;
+    margin-top: 90px;
+}
+
+.sec-2 .container .card img{
+    width: 300px;
+    position: absolute;
+    top: -26px;
+}
+
+.sec-2 .container .card .mar-tp{
+    margin-top: 50px;
+}
+
+.sec-2 .container .card .mar-tp p{
+    margin-top: 10px;
+}
+
+.sec-2 .container .card .anchor{
+    font-size: 17px;
+    color: #3C6EB4;
+}
+
+.sec-2 .container .card a{
+    text-decoration: none;
+}
+
+.sec-2 .container .card a h2{
+    font-family:'Poppins',sans-serif;
+    background-image:linear-gradient(43deg , #75D641 , #54A6CD);
+    -webkit-background-clip:text;
+    color:transparent;
+    font-size: 37px;
+}
+
+.sec-2 .container .card a p{
+    color: #D1D5DB;
+    font-size: 19px;
+}
+
+.sec-2 .container .card .bottom{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.sec-2 .container .card .bottom .btn {
+    margin-left: auto;
+    text-decoration: none;
+}
+
+.sec-2 .container .card .bottom a .btn{
+    background-color: var(--primary-blue);
+    padding: 15px 25px;
+    border-radius: 5px;
+    transition: 300ms;
+}
+
+.sec-2 .container .card .bottom a .btn:hover{
+    background-color: #295178;
+}
+
+
+
+.sec-2 .container .card .bottom a .btn p{
+    color: var(--white);
+    font-size: 19px;
+}
+
+.sec-2 .container .card2 img{
+    width: 200px;
+}
+
+.sec-2 .container .card3 img{
+    width: 150px;
+}
+
+.sec-2 .container .card4 img{
+    width: 190px;
+}
+
+.sec-2 .container .card5 img{
+    width: 190px;
+}
+
+.sec-2 .container .card .bottom{
+    margin-top: auto;
+    padding-top: 10px;
+}
+
+.sec-2 .container-bottom{
+    height: auto;
+    width: 100%;
+    margin-top: 100px;
+    padding-bottom: 40px;
+}
+
+.sec-2 .container-bottom h2{
+    color: #51A2DA;
+    font-size: 42px;
+    text-align: center;
+    font-weight:500;
 }
